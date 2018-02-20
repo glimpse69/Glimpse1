@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yash.test2.MainActivity"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/etUsername"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/etUsername"
+        android:layout_marginTop="42dp"
+        app:srcCompat="@drawable/glimps" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/etPassword"
+        android:layout_alignStart="@+id/etPassword"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="36dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="user name"
+        android:inputType="textPersonName"
+        android:textSize="16dp"
+        android:textColor="#890606"
+        android:backgroundTint="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/etUsername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textColor="#890606"
+        android:backgroundTint="#fffafa"/>
+
+    <TextView
+        android:id="@+id/tvReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="Sign Up!"
+        android:textSize="14sp"
+        android:textColor="#890606"/>
+
+    <Button
+        android:id="@+id/etButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/etPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:background="#890606"
+        android:text="Login"
+        android:textColor="#fff" />
+
+</RelativeLayout>

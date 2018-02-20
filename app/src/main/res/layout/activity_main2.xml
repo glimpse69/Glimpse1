@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yash.test2.Main2Activity">
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/etUserEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etUserName"
+        android:layout_alignStart="@+id/etUserName"
+        android:layout_below="@+id/etUserName"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/etUserPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etUserEmail"
+        android:layout_alignStart="@+id/etUserEmail"
+        android:layout_below="@+id/etUserEmail"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etUserPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:text="Register" />
+
+    <TextView
+        android:id="@+id/tvUserLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:textSize="20dp"
+        android:text="Go back to login?" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "708230212957",
+    "firebase_url": "https://test3-4a8b5.firebaseio.com",
+    "project_id": "test3-4a8b5",
+    "storage_bucket": "test3-4a8b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708230212957:android:96717b36cdf8f28e",
+        "android_client_info": {
+          "package_name": "com.example.yash.test2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708230212957-0nr2atuo410fqeom4f9n2k9ptguvcgkb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO3PRg4Q_zzZbxwOBqWtwj47PNiqFgdK8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
